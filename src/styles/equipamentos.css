@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+    border-radius: 4px;
+  }
+
+  .product-container {
+    display: flex;
+    gap: 16px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+  }
+
+  .product-container p {
+      font-size: 1.2rem;
+  }
+  .image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .big-image {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+  }
+  
+  .main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
