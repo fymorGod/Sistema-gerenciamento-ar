@@ -1,0 +1,79 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.accordion {
+    width: 1500px;
+}
+.boxTitle h4{
+    font-size: 1.5rem;
+}
+.boxCorrect{
+    width: 120px;
+}
+.boxCorrect h4{
+    line-height: 10px;
+}
+
+.item {
+    padding: 10px;
+    background: #f0ebe1;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1);
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.boximg{
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boximg p {
+    text-align: center;
+    margin-top: -45px;
+    font-weight: 600;
+    margin-right: -40px;
+}
+
+button{
+    margin-right: -200px!important;
+}
+.item img {
+    width: 90px;
+    height: 50px;
+    margin-right: -10px;
+    margin-left: 30px;
+}
+.title {
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    color: #8b7f75;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.content.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+.boxTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

@@ -14,6 +14,7 @@ import Defeituosos from "./pages/Defeituosos";
 import Cadastro from "./pages/Cadastro";
 import Filtros from "./pages/Filtros";
 import Navegacao from "./pages/Navegacao";
+import Arc from "./components/Arc";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
 
           <Route path="/navegacao" element={<Navegacao />} />
           <Route path="/navegacao/equipamentos" element={<Equipamentos />} />
+          
+          <Route path="/navegacao/equipamentos/:id" element={<Arc />} />
+
           <Route path="/navegacao/manutencao" element={<Manutencao />} />
           <Route path="/navegacao/relatorios" element={<Relatorios />} />
 

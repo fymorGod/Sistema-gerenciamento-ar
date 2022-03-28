@@ -12,12 +12,10 @@ main {
   padding: 10px;
 }
 
-.title {
-  font-size: 3rem;
-  display: grid;
-  place-items: center;
-}
+.title{
 
+  padding: 10px;
+}
 /* Sidebar */
 .sidebar {
   background: rgb(0, 7, 61);
