@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "./styles.css"
 import arc from "../../assets/arc.png"
+
 const data = [
     {
         question: 'ARC 001',
@@ -42,25 +43,25 @@ export default function Accordion() {
 
     return (
         <>
-            <div className="wrapper">
-                <div className="accordion">
+            <div className="wrapper2">
+                <div className="accordion2">
                     {data.map((item, i) => (
-                        <div className="item">
-                            <div className="title" onClick={() => toggle(i)}>
-                                <div className="boxTitle">
-                                    <div className="boxCorrect">
+                        <div className="item2">
+                            <div className="title2" onClick={() => toggle(i)}>
+                                <div className="boxTitle2">
+                                    <div className="boxCorrect2">
                                         <h4>{item.manutencao}</h4>
                                         <span>motivo</span>
                                     </div>
-                                    <div className="boximg">
+                                    <div className="boximg2">
                                         <img src={arc} alt="arcondicionado" />
                                         <p className="codigoArc">{item.question}</p>
                                     </div>
-                                    <div className="boximg">
+                                    <div className="boximg2">
                                         <img src={arc} alt="arcondicionado" />
                                         <p className="codigoArc">{item.question}</p>
                                     </div>
-                                    <div className="boximg">
+                                    <div className="boximg2">
                                         <img src={arc} alt="arcondicionado" />
                                         <p className="codigoArc">{item.question}</p>
                                     </div>

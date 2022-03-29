@@ -1,24 +1,30 @@
-.wrapper2 {
+.wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     width: auto;
 }
 
-.accordion2 {
-    width: 1500px;
+.accordion {
+    display: flex;
+    flex-direction: column;
+    width: 1550px;
 }
-.boxTitle2 h4{
+.boxTitle h4{
     font-size: 1.5rem;
 }
-.boxCorrect2{
-    width: 120px;
+.boxCorrect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+} 
+.boxCorrect h4 {
+    margin-top: -25px;
+    margin-bottom: 38px;
 }
-.boxCorrect2 h4{
-    line-height: 10px;
-}
-
-.item2 {
+.item {
     padding: 10px;
     background: #f0ebe1;
     margin-bottom: 5px;
@@ -27,31 +33,38 @@
     margin-top: 10px;
     border-radius: 8px;
 }
-.boximg2{
-    width: 110px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.boxing{
+    width: 500px;
+    margin: 30px;
 }
-
-.boximg2 p {
-    text-align: center;
-    margin-top: -45px;
-    font-weight: 600;
-    margin-right: -40px;
+.boxing h2 {
+    font-size: 1.2rem;
+}
+.boxTable h2{
+    font-size: 1.2rem;
+}
+.ocultBar h2{
+    font-size: 1.2rem;
+}
+.table {
+    width: 600px!important;
+}
+.iconImage{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: green;
 }
 
 button{
     margin-right: -200px!important;
 }
-.item2 img {
-    width: 90px;
-    height: 50px;
-    margin-right: -10px;
-    margin-left: 30px;
+.item .img {
+    margin-top: 20px;
+    width: 150px;
+    height: 60px;
 }
-.title2 {
+.title {
     color: #333;
     display: flex;
     justify-content: space-between;
@@ -71,9 +84,14 @@ button{
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(1,0,1,0);
 }
-.boxTitle2{
+.boxTitle{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+}
+.boxing span{
+    width: 10px;
+    height: 10px;
+    padding: 5px;
 }
